@@ -7,6 +7,7 @@ int main() {
 	
 	while(b>0){
 		a = 10;
+		// w tym miejscu jest Ÿle
 		while( (a<=11) || (a>=20) ) {
 			cout << "podaj liczbe mniejsza od 20 i wieksza od 11: ";
 			cin >> a;
@@ -17,10 +18,7 @@ int main() {
 				cout << "falsz" << endl << endl;
 			}
 		}
-		
 		b=b-1;
 	}
-	
-	
 	return 0;
 }
